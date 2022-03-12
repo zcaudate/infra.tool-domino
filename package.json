@@ -1,0 +1,17 @@
+{
+  "name": "domino-main",
+  "main": "src/main.js",
+  "scripts": {
+    "package": "rollup -c",
+    "release": "cp dist/bundle.js ../../../../resources/assets/rt.javafx/domino.min.js"
+  },
+  "dependencies": {
+    "domino": "2.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "17.0.0",
+    "@rollup/plugin-json": "4.1.0",
+    "@rollup/plugin-node-resolve": "11.0.1",
+    "rollup": "2.36.1"
+  }
+}
